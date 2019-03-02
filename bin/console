@@ -4,3 +4,14 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 
+$numberArray = [10, 5, 8, 12];
+$stringArray = ['first', 'second', 'third', 'fourth'];
+
+$asc_sort = new \App\AscSorting();
+$desc_sort = new \App\DescSorting();
+
+$sort_startegy1 = new \App\Context( $asc_sort );
+$sort_startegy2 = new \App\Context( $desc_sort );
+$sort_startegy1->Sorting($numberArray);
+
+$sort_startegy2->Sorting($stringArray);
