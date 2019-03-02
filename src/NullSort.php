@@ -13,6 +13,6 @@ class NullSort implements StrategyInterface
 {
 public function sortAlgoritm(array $data): array
 {
-    
+
 }
 }
