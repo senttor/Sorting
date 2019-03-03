@@ -11,7 +11,7 @@
 
 namespace Vendor\Sorting;
 
-use phpDocumentor\Reflection\Types\Object_; 
+use phpDocumentor\Reflection\Types\Object_;
 
 class Strategy
 {

@@ -5,9 +5,8 @@ This is a test Sorting library.
 
 
 
-[![Packagist](https://img.shields.io/packagist/v/greeflas/default-project.svg)](CHANGELOG.md)
-[![Packagist](https://img.shields.io/packagist/dt/greeflas/default-project.svg)](https://packagist.org/packages/greeflas/default-project)
-![Custom badge](https://img.shields.io/badge/greeflas-default--project-red.svg)
+
+![Custom badge](https://img.shields.io/badge/senttor-trainingsortinglibrary--project-red.svg)
 
 Installation
 ------------
@@ -15,7 +14,7 @@ Installation
 For creating new project based on this template just execute the following command
 
 ```
-$ composer create-project greeflas/default-project project-name
+$ composer create-project senttor/trainingsortinglibrary-project
 ```
 
 > NOTE: You can add `--no-dev` right after `create-project` flag if you don't want to install dev dependencies to your project
@@ -58,7 +57,7 @@ $ composer cs-fix
 License
 -------
 
-[![license](https://img.shields.io/github/license/greeflas/default-project.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/senttor/Sorting.svg)](LICENSE)
 
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 
