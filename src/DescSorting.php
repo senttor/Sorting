@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace App;
+namespace Vendor\Sorting;
 
 class DescSorting implements StrategyInterface
 {
@@ -17,6 +17,8 @@ class DescSorting implements StrategyInterface
      * @param array $data
      *
      * @return array
+     *
+     * method for Desc sorting arrays
      */
     public function sortAlgorithm(array $data)
     {

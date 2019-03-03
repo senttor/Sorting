@@ -7,13 +7,13 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $numberArray = [10, 5, 8, 12];
 $stringArray = ['first', 'second', 'third', 'fourth'];
 
-$asc_sort = new \App\AscSorting();
-$desc_sort = new \App\DescSorting();
-$null_sort =new  \App\NullSort();
+$asc_sort = new \Vendor\Sorting\AscSorting();
+$desc_sort = new \Vendor\Sorting\DescSorting();
+$null_sort =new  \Vendor\Sorting\NullSort();
 
-$sort_startegy1 = new \App\Startegy( $asc_sort );
-$sort_startegy2 = new \App\Startegy( $desc_sort );
-$sort_null_strategy = new \App\Startegy($null_sort);
+$sort_startegy1 = new \Vendor\Sorting\Strategy( $asc_sort );
+$sort_startegy2 = new \Vendor\Sorting\Strategy( $desc_sort );
+$sort_null_strategy = new \Vendor\Sorting\Strategy($null_sort);
 
  var_dump($sort_startegy1->sorting($numberArray));
 

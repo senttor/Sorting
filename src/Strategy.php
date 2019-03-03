@@ -9,9 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace App;
+namespace Vendor\Sorting;
 
-class Startegy
+use phpDocumentor\Reflection\Types\Object_;
+
+class Strategy
 {
     /**
      * @var StrategyInterface
@@ -33,7 +35,7 @@ class Startegy
      *
      * @return StrategyInterface
      */
-    public function setStrategy(StrategyInterface $strategy)
+    public function setStrategy(StrategyInterface $strategy): object //PHP 7 return value
     {
         return $this->strategy = $strategy;
     }
@@ -45,6 +47,7 @@ class Startegy
      */
     public function sorting(array $data)
     {
+        $data = $data ?? $data = []; //used php 7.0 syntax
         $result = $this->strategy->sortAlgorithm($data);
 
         return  $result;

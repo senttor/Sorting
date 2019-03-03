@@ -9,10 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace App;
+namespace Vendor\Sorting;
 
 class NullSort implements StrategyInterface
 {
+    /**
+     * @param array $data
+     * @return array|null
+     *
+     */
     public function sortAlgorithm(array $data)
     {
         return $data = null;
