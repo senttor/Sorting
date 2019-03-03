@@ -26,6 +26,7 @@ public function __construct(StrategyInterface $strategy)
 }
 
     /**
+     * @param StrategyInterface $strategy
      * @return StrategyInterface
      */
 public function getStrategy(StrategyInterface $strategy)
@@ -39,7 +40,7 @@ public function getStrategy(StrategyInterface $strategy)
      */
 public function Sorting(array $data)
 {
-    $result = $this->strategy->sortAlgoritm($data);
+    $result = $this->strategy->sortAlgorithm($data);
 
     return  $result;
 }
