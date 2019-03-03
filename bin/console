@@ -11,12 +11,12 @@ $asc_sort = new \App\AscSorting();
 $desc_sort = new \App\DescSorting();
 $null_sort =new  \App\NullSort();
 
-$sort_startegy1 = new \App\Context( $asc_sort );
-$sort_startegy2 = new \App\Context( $desc_sort );
-$sort_null_strategy = new \App\Context($null_sort);
+$sort_startegy1 = new \App\Startegy( $asc_sort );
+$sort_startegy2 = new \App\Startegy( $desc_sort );
+$sort_null_strategy = new \App\Startegy($null_sort);
 
- var_dump($sort_startegy1->Sorting($numberArray));
+ var_dump($sort_startegy1->sorting($numberArray));
 
-var_dump($sort_startegy2->Sorting($stringArray));
+var_dump($sort_startegy2->sorting($stringArray));
 
-var_dump($sort_null_strategy->Sorting($stringArray));
+var_dump($sort_null_strategy->sorting($stringArray));

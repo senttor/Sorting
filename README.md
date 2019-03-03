@@ -1,13 +1,9 @@
-Default Project
+Sorting library
 ===============
 
-This is a default structure for PHP projects. With this template you can speed up the process of creating of new:
-open-source, proprietary, test, demo and etc. projects!
+This is a test Sorting library.
 
-This template has basic configuration for [PHPUnit](https://github.com/sebastianbergmann/phpunit) and
-[PHP-CS-Fixer](https://github.com/friendsofphp/php-cs-fixer) libraries, configured `composer.json`
-with PSR-4 namespaces for source code and tests, `.gitignore` with basic files and directories to exclude them from Git, changelog file
-and README with cool  badges :)
+
 
 [![Packagist](https://img.shields.io/packagist/v/greeflas/default-project.svg)](CHANGELOG.md)
 [![Packagist](https://img.shields.io/packagist/dt/greeflas/default-project.svg)](https://packagist.org/packages/greeflas/default-project)
