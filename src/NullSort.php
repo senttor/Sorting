@@ -11,8 +11,8 @@ namespace App;
 
 class NullSort implements StrategyInterface
 {
-public function sortAlgoritm(array $data): array
+public function sortAlgoritm(array $data)
 {
-
+  return $data = NULL;
 }
 }

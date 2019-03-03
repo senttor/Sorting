@@ -15,8 +15,8 @@ $sort_startegy1 = new \App\Context( $asc_sort );
 $sort_startegy2 = new \App\Context( $desc_sort );
 $sort_null_strategy = new \App\Context($null_sort);
 
-$sort_startegy1->Sorting($numberArray);
+ var_dump($sort_startegy1->Sorting($numberArray));
 
-$sort_startegy2->Sorting($stringArray);
+var_dump($sort_startegy2->Sorting($stringArray));
 
-$sort_null_strategy->Sorting($stringArray);
+var_dump($sort_null_strategy->Sorting($stringArray));

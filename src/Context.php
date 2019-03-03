@@ -37,7 +37,7 @@ public function getStrategy(StrategyInterface $strategy)
      * @param array $data
      * @return array
      */
-public function Sorting(array $data): array
+public function Sorting(array $data)
 {
     $result = $this->strategy->sortAlgoritm($data);
 

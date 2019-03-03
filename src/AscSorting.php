@@ -10,8 +10,9 @@ class AscSorting implements StrategyInterface
      * @param array $data
      * @return array
      */
-public function sortAlgoritm(array $data): array
+public function sortAlgoritm(array $data)
 {
-    return asort($data);
+    asort($data);
+    return $data;
 }
 }
