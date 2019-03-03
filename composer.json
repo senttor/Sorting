@@ -1,5 +1,5 @@
 {
-  "name": "senttor/trainingsortinglibrary-project",
+  "name": "senttor/trainingSortingLibrary-project",
   "description": "This is a training library for sorting array",
   "keywords": ["project", "template", "structure"],
   "type": "project",
@@ -12,7 +12,7 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": "7.3"
+    "php": ">=7.3"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.13"
@@ -24,15 +24,10 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\Sorting\\tests\\": "tests/"
+      "Vendor\\Sorting\\tests": "tests/"
     }
   },
   "scripts": {
-    "cs-fix": " wwr fix --allow-risky=yes"
-  },
-  "config": {
-    "platform": {
-      "php": "7.3"
-    }
+    "cs-fix": "php-cs-fixer fix --allow-risky=yes"
   }
 }
