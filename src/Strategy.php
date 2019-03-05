@@ -37,7 +37,7 @@ class Strategy
      */
     public function setStrategy(StrategyInterface $strategy): object //PHP 7 return value
     {
-        return $this->strategy = $strategy;
+        $this->strategy = $strategy;
     }
 
     /**
