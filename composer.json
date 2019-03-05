@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Vendor\\Sorting\\": "src/"
+      "Senttor\\Sorting\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Vendor\\Sorting\\tests": "tests/"
+      "Senttor\\Sorting\\Tests": "tests/"
     }
   },
   "scripts": {
