@@ -1,7 +1,6 @@
 {
   "name": "senttor/trainingSortingLibrary-project",
   "description": "This is a training library for sorting array",
-  "keywords": ["project", "template", "structure"],
   "type": "project",
   "license": "BSD-3-Clause",
   "authors": [
