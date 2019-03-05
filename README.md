@@ -14,13 +14,11 @@ Installation
 For creating new project based on this template just execute the following command
 
 ```
-$ composer create-project senttor/trainingsortinglibrary-project
+$ composer require senttor/trainingsortinglibrary-project
 ```
 
 > NOTE: You can add `--no-dev` right after `create-project` flag if you don't want to install dev dependencies to your project
 
-Usage
------
 
 Main changes that you need to do:
 
@@ -43,6 +41,25 @@ Other changes that you may do:
 5. Update readme according to your project
 
 6. Update changelog according to your project
+
+
+Usage
+-----
+input value
+```
+ 1.$stringArray = ['first', 'second', 'third', 'fourth'];
+```
+goal - asc sorting
+Choosing Asc sort 
+```
+2. $asc_sort = new \Vendor\Sorting\AscSorting();
+   $strategy_asc = new \Vendor\Sorting\Strategy( $asc_sort );
+```
+sorting...
+```
+ $strategy_asc->sorting($stringArray)
+```
+
 
 Code style fixer
 ----------------
