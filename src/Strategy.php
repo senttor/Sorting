@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Vendor\Sorting;
+namespace Senttor\Sorting;
 
 use phpDocumentor\Reflection\Types\Object_;
 
