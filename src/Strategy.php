@@ -47,7 +47,7 @@ class Strategy
      */
     public function sorting(array $data)
     {
-        $data = $data ?? $data = []; //used php 7.0 syntax
+        $data = $data ?? $data = [];
         $result = $this->strategy->sortAlgorithm($data);
 
         return  $result;
