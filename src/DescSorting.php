@@ -14,11 +14,12 @@ namespace Senttor\Sorting;
 class DescSorting implements StrategyInterface
 {
     /**
+     * method for Desc sorting arrays
+     *
      * @param array $data
      *
      * @return array
      *
-     * method for Desc sorting arrays
      */
     public function sortAlgorithm(array $data)
     {
