@@ -1,5 +1,5 @@
 {
-  "name": "senttor/trainingSortingLibrary-project",
+  "name": "senttor/trainingsortinglibrary-project",
   "description": "This is a training library for sorting array",
   "type": "project",
   "license": "BSD-3-Clause",
@@ -23,7 +23,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Senttor\\Sorting\\Tests": "tests/"
+      "Senttor\\Sorting\\Tests\\": "tests/"
     }
   },
   "scripts": {

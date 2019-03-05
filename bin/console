@@ -7,15 +7,15 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $numberArray = [10, 5, 8, 12];
 $stringArray = ['first', 'second', 'third', 'fourth'];
 
-$asc_sort = new \Vendor\Sorting\AscSorting();
-$desc_sort = new \Vendor\Sorting\DescSorting();
-$null_sort =new  \Vendor\Sorting\NullSort();
+$asc_sort = new \Senttor\Sorting\AscSorting();
+$desc_sort = new \Senttor\Sorting\DescSorting();
+$null_sort =new  \Senttor\Sorting\NullSort();
 
-$sort_startegy1 = new \Vendor\Sorting\Strategy( $asc_sort );
-$sort_startegy2 = new \Vendor\Sorting\Strategy( $desc_sort );
-$sort_null_strategy = new \Vendor\Sorting\Strategy($null_sort);
+$sort_startegy1 = new \Senttor\Sorting\Strategy( $asc_sort );
+$sort_startegy2 = new \Senttor\Sorting\Strategy( $desc_sort );
+$sort_null_strategy = new \Senttor\Sorting\Strategy( $null_sort );
 
- var_dump($sort_startegy1->sorting($numberArray));
+var_dump($sort_startegy1->sorting($numberArray));
 
 var_dump($sort_startegy2->sorting($stringArray));
 

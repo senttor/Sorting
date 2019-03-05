@@ -35,7 +35,7 @@ class Strategy
      *
      * @return StrategyInterface
      */
-    public function setStrategy(StrategyInterface $strategy): object 
+    public function setStrategy(StrategyInterface $strategy)
     {
         $this->strategy = $strategy;
     }
