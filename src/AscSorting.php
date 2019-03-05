@@ -14,11 +14,12 @@ namespace Senttor\Sorting;
 class AscSorting implements StrategyInterface
 {
     /**
+     * method for Asc sorting arrays
+     *
      * @param array $data
      *
      * @return array
      *
-     * method for Asc sorting arrays
      */
     public function sortAlgorithm(array $data)
     {
